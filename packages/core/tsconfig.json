@@ -1,0 +1,5 @@
+{
+  "extends": "@cwl/tsconfig/react.json",
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
+}

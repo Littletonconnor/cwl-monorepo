@@ -1,0 +1,7 @@
+{
+  "extends": "@cwl/tsconfig/base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["**/*.js"]
+}

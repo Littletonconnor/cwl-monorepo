@@ -1,0 +1,12 @@
+{
+  "name": "@cwl/tsconfig",
+  "version": "0.1.0",
+  "private": true,
+  "description": "cwl-monorepo TypeScript configuration presets",
+  "author": "Connor Littleton",
+  "files": [
+    "./base.json",
+    "./nextjs.json",
+    "./react.json"
+  ]
+}
