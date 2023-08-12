@@ -13,6 +13,7 @@
     "lint:fix": {},
     "prettier": {},
     "prettier:fix": {},
+    "type-check": {},
     "dev": {
       "cache": false,
       "persistent": true

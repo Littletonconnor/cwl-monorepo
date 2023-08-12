@@ -7,6 +7,10 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build --docs",
     "preview-storybook": "serve storybook-static",
+    "lint": "eslint \"{stories,.storybook}/**/*.{ts,mdx,tsx}*\"",
+    "lint:fix": "pnpm run lint --fix",
+    "prettier": "prettier --check stories .storybook",
+    "prettier:fix": "prettier --write stories .storybook",
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
@@ -29,6 +33,7 @@
     "@storybook/testing-library": "^0.2.0",
     "@vitejs/plugin-react": "^1.3.2",
     "eslint-config-cwl-monorepo": "workspace:*",
+    "eslint-plugin-mdx": "^2.2.0",
     "eslint-plugin-storybook": "^0.6.13",
     "serve": "^13.0.4",
     "storybook": "^7.2.3",
